@@ -2,12 +2,12 @@ import { Box, Text, Button } from "@chakra-ui/react";
 import React from "react";
 
 function Section9() {
-    const style = {
-        backgroundImage: 'url(/images/checkers.png)',
-        backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat',
-        backgroundSize: 'cover'
-    }
+  const style = {
+    backgroundImage: "url(/images/checkers.png)",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+  };
   return (
     <Box
       py={["10px", "20px", "30px"]}
@@ -49,10 +49,11 @@ function Section9() {
           bg="rgba(31, 102, 171, 1)"
           color="#fff"
           borderRadius="24px"
-          width={["100px", "178px", "178px"]}
-          height={["40px", "49px", "49px"]}
+          height={["30px", "30px", "49px"]}
+          fontSize={["12.5px", "12.5px", "16px"]}
+          fontWeight="600"
           mb={["30px", "30px", "50px"]}
-          border='1px solid #fff'
+          border="1px solid #fff"
         >
           Apply to SIP 1.0
         </Button>

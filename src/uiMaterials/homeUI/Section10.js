@@ -107,6 +107,11 @@ function Section10() {
                 slidesToShow: 3,
                 slidesToScroll: 2,
                 initialSlide: 2,
+                autoplay: true,
+                speed: 2000,
+                autoplaySpeed: 3000,
+                infinite: true,
+                dots: true,
             }
         },
         {
@@ -114,8 +119,10 @@ function Section10() {
             settings: {
                 slidesToShow: 2,
                 slidesToScroll: 2,
-                autoplay: false,
-                dots: true
+                autoplay: true,
+                dots: true,
+                autoplaySpeed: 3000,
+                infinite: true,
             }
         }
     ]
