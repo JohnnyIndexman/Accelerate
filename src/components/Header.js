@@ -20,10 +20,12 @@ function Header() {
       bg="rgba(249, 249, 249, 1)"
       px={["10px", "10px", "50px"]}
       py={["10px", "20px", "20px"]}
-      position={['fixed', 'fixed', '']}
+      position={['sticky', 'sticky', 'sticky']}
       top={['0', '0', '0']}
       right='0px'
       left='0'
+      zIndex='1'
+  
 
     >
       <Box

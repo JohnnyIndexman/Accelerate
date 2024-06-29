@@ -48,8 +48,8 @@ function Section10() {
         As Featured In
       </Text>
       <Box display="flex">
-        {/* <Slider {...settings}>{display}</Slider> */}
-        {display}
+         <Slider {...settings}>{display}</Slider> 
+        {/* {display} */}
       </Box>
     </Box>
   );
