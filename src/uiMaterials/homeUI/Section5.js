@@ -9,13 +9,13 @@ function Section5() {
       <Box
         key={c.id}
         width={["50%", "50%", "20%"]}
-        height={["220px", "220px", "400px"]}
+        height={["240px", "240px", "400px"]}
         mb={["20px", "20px", "0"]}
       >
         <Card
           height="100%"
           width="100%"
-          p={["10px", "10px", "20px"]}
+          p={["20px", "20px", "20px"]}
           display="flex"
           flexDirection="column"
           justifyContent="space-between"

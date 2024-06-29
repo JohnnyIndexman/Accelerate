@@ -6,7 +6,7 @@ function Section4() {
   const component = section4;
   const display = component.map((c) => {
     return (
-      <Box key={c.id} width={["47%", "47%", "30%"]} mb={['20px', '20px', '0']}>
+      <Box key={c.id} width={["49%", "49%", "30%"]} mb={['20px', '20px', '0']}>
         <Card p="10px" bg="rgba(249, 249, 249, 1)"
         height={['220px', '220px', '228px']}>
           <Image
