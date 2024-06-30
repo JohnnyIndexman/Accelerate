@@ -32,13 +32,15 @@ function Header() {
         gap="50px"
         justifyContent="space-between"
       >
-        <Image
-          src="/images/asin5-logo.png"
-          width={["130px", "151px", "151px"]}
-          height={["40px", "58px", "58px"]}
-          alt="Logo"
-          alignSelf={["flex-start", "flex-start", "flex-start"]}
-        />
+        <Link href="/">
+          <Image
+            src="/images/asin5-logo.png"
+            width={["130px", "151px", "151px"]}
+            height={["40px", "58px", "58px"]}
+            alt="Logo"
+            alignSelf={["flex-start", "flex-start", "flex-start"]}
+          />
+        </Link>
         <Box
           display={["none", "none", "flex"]}
           justifyContent="space-between"
@@ -55,25 +57,25 @@ function Header() {
             flexDirection={["column", "column", "row"]}
           >
             <Text fontSize={["12.5px", "12.5px", "16px"]} fontWeight="500">
-              <Link href="/">About us</Link>
+              <Link href="/about">About us</Link>
             </Text>
             <Text fontSize={["12.5px", "12.5px", "16px"]} fontWeight="500">
-              <Link href="/">Companies</Link>
+              <Link href="companies">Companies</Link>
             </Text>
             <Text fontSize={["12.5px", "12.5px", "16px"]} fontWeight="500">
-              <Link href="/">SEEQ</Link>
+              <Link href="/seeq">SEEQ</Link>
             </Text>
             <Text fontSize={["12.5px", "12.5px", "16px"]} fontWeight="500">
-              <Link href="/">Jobs</Link>
+              <Link href="/jobs">Jobs</Link>
             </Text>
             <Text fontSize={["12.5px", "12.5px", "16px"]} fontWeight="500">
-              <Link href="/">Resources</Link>
+              <Link href="/resources">Resources</Link>
             </Text>
             <Text fontSize={["12.5px", "12.5px", "16px"]} fontWeight="500">
-              <Link href="/">Platforms</Link>
+              <Link href="/platform">Platforms</Link>
             </Text>
             <Text fontSize={["12.5px", "12.5px", "16px"]} fontWeight="500">
-              <Link href="/">Initiatives</Link>
+              <Link href="/initiatives">Initiatives</Link>
             </Text>
           </Box>
           <Box
@@ -124,49 +126,49 @@ function Header() {
             fontWeight="500"
             mb="8px"
           >
-            <Link href="/">About us</Link>
+            <Link href="/about">About us</Link>
           </Text>
           <Text
             fontSize={["12.5px", "12.5px", "16px"]}
             fontWeight="500"
             mb="8px"
           >
-            <Link href="/">Companies</Link>
+            <Link href="/companies">Companies</Link>
           </Text>
           <Text
             fontSize={["12.5px", "12.5px", "16px"]}
             fontWeight="500"
             mb="8px"
           >
-            <Link href="/">SEEQ</Link>
+            <Link href="/seeq">SEEQ</Link>
           </Text>
           <Text
             fontSize={["12.5px", "12.5px", "16px"]}
             fontWeight="500"
             mb="8px"
           >
-            <Link href="/">Jobs</Link>
+            <Link href="/jobs">Jobs</Link>
           </Text>
           <Text
             fontSize={["12.5px", "12.5px", "16px"]}
             fontWeight="500"
             mb="8px"
           >
-            <Link href="/">Resources</Link>
+            <Link href="/resources">Resources</Link>
           </Text>
           <Text
             fontSize={["12.5px", "12.5px", "16px"]}
             fontWeight="500"
             mb="8px"
           >
-            <Link href="/">Platforms</Link>
+            <Link href="/platform">Platforms</Link>
           </Text>
           <Text
             fontSize={["12.5px", "12.5px", "16px"]}
             fontWeight="500"
             mb="8px"
           >
-            <Link href="/">Initiatives</Link>
+            <Link href="/initiatives">Initiatives</Link>
           </Text>
 
           <Box
