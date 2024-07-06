@@ -8,7 +8,7 @@ function Section5() {
     return (
       <Box
         key={c.id}
-        width={["50%", "50%", "20%"]}
+        width={["100%", "50%", "20%"]}
         height={["240px", "240px", "400px"]}
         mb={["20px", "20px", "0"]}
       >

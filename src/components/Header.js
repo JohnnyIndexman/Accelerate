@@ -113,6 +113,7 @@ function Header() {
         right="0px"
         left="0"
         zIndex="1"
+        className="dropdown"
       >
         <Box
           display="flex"
